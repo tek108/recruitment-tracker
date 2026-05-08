@@ -1,0 +1,1159 @@
+{
+  "roles": [
+    {
+      "id": "role-1",
+      "jobTitle": "IFRS Director of Reporting",
+      "company": "Almadev",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-03-01T00:00:00.000Z",
+      "lastActivity": "2026-04-26T00:00:00.000Z"
+    },
+    {
+      "id": "role-2",
+      "jobTitle": "DFIR Germany",
+      "company": "Cypfer",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-03-01T00:00:00.000Z",
+      "lastActivity": "2026-05-08T15:45:00.024Z"
+    },
+    {
+      "id": "role-3",
+      "jobTitle": "Travel Operations Manager",
+      "company": "Peerless",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-01T00:00:00.000Z",
+      "lastActivity": "2026-05-01T00:00:00.000Z"
+    },
+    {
+      "id": "role-4",
+      "jobTitle": "Admin Support",
+      "company": "Peerless",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-01T00:00:00.000Z",
+      "lastActivity": "2026-05-04T00:00:00.000Z"
+    },
+    {
+      "id": "role-5",
+      "jobTitle": "Senior Bookkeeper / Accountant",
+      "company": "Peerless",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-01T00:00:00.000Z",
+      "lastActivity": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "role-6",
+      "jobTitle": "Sales Manager",
+      "company": "Edmonton",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-01T00:00:00.000Z",
+      "lastActivity": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "id": "role-7",
+      "jobTitle": "DSE - Laval",
+      "company": "Openlane",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-02-01T00:00:00.000Z",
+      "lastActivity": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "id": "role-8",
+      "jobTitle": "DSE - Montreal",
+      "company": "Openlane",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-01T00:00:00.000Z",
+      "lastActivity": "2026-04-09T00:00:00.000Z"
+    },
+    {
+      "id": "role-9",
+      "jobTitle": "CIEM - Germany",
+      "company": "Cypfer",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-03-01T00:00:00.000Z",
+      "lastActivity": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "id": "role-10",
+      "jobTitle": "Director, DFIR (US)",
+      "company": "Cypfer",
+      "contactName": "",
+      "status": "Active",
+      "noGoReason": null,
+      "createdDate": "2026-04-20T00:00:00.000Z",
+      "lastActivity": "2026-05-08T00:00:00.000Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c1",
+      "roleId": "role-1",
+      "name": "Tomer Shaki",
+      "stage": "Hiring Manager Interview",
+      "flag": "Maybe",
+      "notes": "maybe manager?",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "roleId": "role-1",
+      "name": "Meir Berman",
+      "stage": "Round 2",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "roleId": "role-1",
+      "name": "Russel Llantino",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "roleId": "role-1",
+      "name": "Yisroel Zuchter",
+      "stage": "On Hold",
+      "flag": "Hold",
+      "notes": "for now on hold",
+      "followUpDate": "2026-04-06",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "roleId": "role-1",
+      "name": "Priya Shaikh",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "roleId": "role-1",
+      "name": "Yakir Saban",
+      "stage": "Offer",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-26",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-20T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "roleId": "role-1",
+      "name": "Eldor Ostfeld",
+      "stage": "Submitted",
+      "flag": "Maybe",
+      "notes": "maybe manager?",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "roleId": "role-1",
+      "name": "Keerthi Ratnayake",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "roleId": "role-1",
+      "name": "Adam Kowal",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "roleId": "role-1",
+      "name": "Projwal Pramanik",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "roleId": "role-1",
+      "name": "Julia Tam",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-15",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "roleId": "role-1",
+      "name": "Ron Koyama",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-30",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "roleId": "role-1",
+      "name": "Jay Semeniuk",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "roleId": "role-1",
+      "name": "Genady Gluchovsky",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-05",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "roleId": "role-2",
+      "name": "Eric Frank",
+      "stage": "Round 2",
+      "flag": "Active",
+      "notes": "March 9 submission",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-09T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-09T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "roleId": "role-2",
+      "name": "Mark Zart",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "n",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": "",
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        },
+        {
+          "timestamp": "2026-05-08T15:45:00.024Z",
+          "entry": "Notes updated"
+        },
+        {
+          "timestamp": "2026-05-08T15:45:00.024Z",
+          "entry": "Rejection reason: "
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "roleId": "role-3",
+      "name": "Mauro Di Re",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-28",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "roleId": "role-3",
+      "name": "Karla Aguilar",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-30",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c19",
+      "roleId": "role-3",
+      "name": "Daryl Valerio",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-01",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-25T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c20",
+      "roleId": "role-3",
+      "name": "Elias Araznajani",
+      "stage": "Closed",
+      "flag": "Active",
+      "notes": "No",
+      "followUpDate": "2026-04-27",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-20T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c21",
+      "roleId": "role-4",
+      "name": "Aayush Gaur",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "Y",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-25T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c22",
+      "roleId": "role-4",
+      "name": "Mirali Savjani",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c23",
+      "roleId": "role-4",
+      "name": "Priya Sivalinghem",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c24",
+      "roleId": "role-4",
+      "name": "Dana Ichilov",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-01",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-28T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c25",
+      "roleId": "role-4",
+      "name": "Lidia E. Boccia",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c26",
+      "roleId": "role-4",
+      "name": "Viktorija Salamanova",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c27",
+      "roleId": "role-4",
+      "name": "Hannah Nguyen",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c28",
+      "roleId": "role-5",
+      "name": "Piratheepa Sockalingam",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-30",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c29",
+      "roleId": "role-5",
+      "name": "Priya Kamra",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c30",
+      "roleId": "role-5",
+      "name": "Tejas Shah",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-26T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c31",
+      "roleId": "role-7",
+      "name": "Juan Camilo Duque",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-20T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c32",
+      "roleId": "role-7",
+      "name": "Jeoffery Innis",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c33",
+      "roleId": "role-7",
+      "name": "Gilles Douieb",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c34",
+      "roleId": "role-7",
+      "name": "Jean-Luc Domond",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c35",
+      "roleId": "role-7",
+      "name": "Yanis Benhalla",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-03-03",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-03T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c36",
+      "roleId": "role-7",
+      "name": "Ali Bassam",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "flat tire",
+      "followUpDate": "2026-03-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-08T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-11T00:00:00.000Z",
+          "entry": "Imported from spreadsheet - March 11"
+        }
+      ]
+    },
+    {
+      "id": "c37",
+      "roleId": "role-7",
+      "name": "Mustafa Kazi",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-03-04",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c38",
+      "roleId": "role-7",
+      "name": "Ricardo Acosta",
+      "stage": "Hiring Manager Interview",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-05T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c39",
+      "roleId": "role-7",
+      "name": "Bassel Abdel Khalek",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-02-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-02-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c40",
+      "roleId": "role-8",
+      "name": "Bakary Berete",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c41",
+      "roleId": "role-8",
+      "name": "Abderrahamen",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-04-09",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c42",
+      "roleId": "role-8",
+      "name": "Kamel",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "April 8",
+      "followUpDate": "2026-04-08",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c43",
+      "roleId": "role-8",
+      "name": "Steven Levy",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c44",
+      "roleId": "role-9",
+      "name": "Liliya",
+      "stage": "Offer Declined",
+      "flag": "Active",
+      "notes": "yes",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c45",
+      "roleId": "role-9",
+      "name": "Karolina",
+      "stage": "On Hold",
+      "flag": "Hold",
+      "notes": "hold",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-15T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c46",
+      "roleId": "role-9",
+      "name": "Christian",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c47",
+      "roleId": "role-9",
+      "name": "Aditi Sharma",
+      "stage": "Round 2",
+      "flag": "Active",
+      "notes": "yes",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-10T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c48",
+      "roleId": "role-9",
+      "name": "Marco",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c49",
+      "roleId": "role-9",
+      "name": "Ekaterina Gavrilova",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c50",
+      "roleId": "role-9",
+      "name": "Ajay Krishna",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c51",
+      "roleId": "role-9",
+      "name": "Muralibabu Santhana Krishnan",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c52",
+      "roleId": "role-9",
+      "name": "Sandor Barics",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c53",
+      "roleId": "role-9",
+      "name": "Prashant Srivastava",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": null,
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-03-01T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c54",
+      "roleId": "role-9",
+      "name": "Semih Altan",
+      "stage": "On Hold",
+      "flag": "Hold",
+      "notes": "Y",
+      "followUpDate": "2026-04-25",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-20T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-25T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c55",
+      "roleId": "role-9",
+      "name": "Paul Morissey",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "Y",
+      "followUpDate": "2026-04-29",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-25T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-29T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c56",
+      "roleId": "role-9",
+      "name": "Pawel Gontarczyk",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "No",
+      "followUpDate": "2026-04-30",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-04-26T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-04-30T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c57",
+      "roleId": "role-10",
+      "name": "Alec Fenton",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-07",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-05-07T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-05-07T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    },
+    {
+      "id": "c58",
+      "roleId": "role-10",
+      "name": "Deepak Puthalath",
+      "stage": "Submitted",
+      "flag": "Active",
+      "notes": "",
+      "followUpDate": "2026-05-08",
+      "employerFeedback": "",
+      "rejectionReason": null,
+      "stageEnteredDate": "2026-05-08T00:00:00.000Z",
+      "activityLog": [
+        {
+          "timestamp": "2026-05-08T00:00:00.000Z",
+          "entry": "Imported from spreadsheet"
+        }
+      ]
+    }
+  ],
+  "talentPool": []
+}
