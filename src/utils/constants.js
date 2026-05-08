@@ -1,13 +1,13 @@
 export const PIPELINE_STAGES = [
   'Submitted',
   'On Hold',
+  'No Go [Eitan]',
+  'Hiring Manager Declined',
   'Hiring Manager Interview',
   'Round 2',
   'Final Round',
   'Offer',
   'Offer Declined',
-  'No Go [Eitan]',
-  'Hiring Manager Declined',
   'Placed',
   'Closed',
 ];
