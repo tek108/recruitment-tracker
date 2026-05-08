@@ -18,7 +18,7 @@
       "status": "Active",
       "noGoReason": null,
       "createdDate": "2026-03-01T00:00:00.000Z",
-      "lastActivity": "2026-05-08T15:45:00.024Z"
+      "lastActivity": "2026-05-08T16:22:56.532Z"
     },
     {
       "id": "role-3",
@@ -376,13 +376,13 @@
       "id": "c16",
       "roleId": "role-2",
       "name": "Mark Zart",
-      "stage": "Submitted",
+      "stage": "On Hold",
       "flag": "Active",
       "notes": "n",
       "followUpDate": null,
       "employerFeedback": "",
       "rejectionReason": "",
-      "stageEnteredDate": "2026-03-01T00:00:00.000Z",
+      "stageEnteredDate": "2026-05-08T16:22:54.676Z",
       "activityLog": [
         {
           "timestamp": "2026-03-01T00:00:00.000Z",
@@ -395,6 +395,18 @@
         {
           "timestamp": "2026-05-08T15:45:00.024Z",
           "entry": "Rejection reason: "
+        },
+        {
+          "timestamp": "2026-05-08T16:22:54.676Z",
+          "entry": "Stage changed: Submitted → On Hold"
+        },
+        {
+          "timestamp": "2026-05-08T16:22:54.676Z",
+          "entry": "Follow-up date set to 2026-05-15"
+        },
+        {
+          "timestamp": "2026-05-08T16:22:56.532Z",
+          "entry": "Follow-up date set to cleared"
         }
       ]
     },
