@@ -54,10 +54,6 @@ export default function CandidateCard({ candidateId, onClose }) {
 
   if (!candidate || !role) return null;
 
-  const stageIdx = PIPELINE_STAGES.indexOf(candidate.stage);
-  const prevStage = stageIdx > 0 ? PIPELINE_STAGES[stageIdx - 1] : null;
-  const nextStage = stageIdx < PIPELINE_STAGES.length - 1 ? PIPELINE_STAGES[stageIdx + 1] : null;
-
   function save() {
     const updates = {};
     if (name !== candidate.name) updates.name = name;
@@ -159,28 +155,22 @@ export default function CandidateCard({ candidateId, onClose }) {
         {/* Stage bar */}
         <div className="px-6 py-3 bg-gray-50 border-b border-gray-200 flex-shrink-0">
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => prevStage && initiateStageChange(prevStage)}
-              disabled={!prevStage}
-              className="px-3 py-1.5 text-sm border rounded-lg font-medium transition-colors disabled:opacity-30 disabled:cursor-not-allowed border-gray-300 text-gray-700 hover:enabled:bg-gray-100"
+            <label className="text-xs font-semibold text-gray-500 uppercase tracking-wider flex-shrink-0">
+              Stage
+            </label>
+            <select
+              value={pendingStage || candidate.stage}
+              onChange={e => {
+                const target = e.target.value;
+                if (target !== candidate.stage) initiateStageChange(target);
+              }}
+              className={`rounded-full text-sm font-semibold px-3 py-1.5 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-blue-500 ${STAGE_COLORS[pendingStage || candidate.stage] || 'bg-gray-100 text-gray-700'}`}
             >
-              ← Prev
-            </button>
-
-            <div className="flex-1 flex items-center justify-center gap-2">
-              <span className={`text-sm px-3 py-1 rounded-full font-semibold ${STAGE_COLORS[candidate.stage] || 'bg-gray-100 text-gray-700'}`}>
-                {candidate.stage}
-              </span>
-              <span className="text-xs text-gray-400">{daysSince(candidate.stageEnteredDate)}d in stage</span>
-            </div>
-
-            <button
-              onClick={() => nextStage && initiateStageChange(nextStage)}
-              disabled={!nextStage}
-              className="px-3 py-1.5 text-sm border rounded-lg font-medium transition-colors disabled:opacity-30 disabled:cursor-not-allowed border-gray-300 text-gray-700 hover:enabled:bg-gray-100"
-            >
-              Next →
-            </button>
+              {PIPELINE_STAGES.map(s => (
+                <option key={s} value={s}>{s}</option>
+              ))}
+            </select>
+            <span className="text-xs text-gray-400">{daysSince(candidate.stageEnteredDate)}d in stage</span>
           </div>
 
           {/* Stage change confirmation */}
