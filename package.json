@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"node server.js\" \"vite --port 5173\"",
-    "build": "vite build",
+    "build": "node -e \"require('fs').copyFileSync('data.json','public/data.json')\" && vite build",
     "start": "node server.js"
   },
   "dependencies": {
