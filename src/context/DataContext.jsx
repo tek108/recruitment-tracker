@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useRef, useCallb
 import { v4 as uuidv4 } from 'uuid';
 import { FOLLOW_UP_DAYS } from '../utils/constants';
 import { addDaysToDate, toISODateString } from '../utils/dateUtils';
+import { supabase } from '../lib/supabase';
 
 const DataContext = createContext(null);
 
@@ -13,22 +14,24 @@ export function DataProvider({ children }) {
   useEffect(() => { dataRef.current = data; }, [data]);
 
   useEffect(() => {
-    fetch('/api/data')
-      .then(r => r.json())
-      .then(d => {
-        setData(d);
-        dataRef.current = d;
+    supabase
+      .from('app_data')
+      .select('data')
+      .eq('id', 1)
+      .single()
+      .then(({ data: row, error }) => {
+        if (error) { console.error(error); setLoading(false); return; }
+        setData(row.data);
+        dataRef.current = row.data;
         setLoading(false);
-      })
-      .catch(() => setLoading(false));
+      });
   }, []);
 
   const persist = useCallback((newData) => {
-    fetch('/api/data', {
-      method: 'PUT',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(newData),
-    }).catch(console.error);
+    supabase
+      .from('app_data')
+      .upsert({ id: 1, data: newData })
+      .then(({ error }) => { if (error) console.error(error); });
   }, []);
 
   const commit = useCallback((newData) => {
