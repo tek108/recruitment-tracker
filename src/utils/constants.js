@@ -6,12 +6,14 @@ export const PIPELINE_STAGES = [
   'Final Round',
   'Offer',
   'Offer Declined',
+  'No Go [Eitan]',
+  'Hiring Manager Declined',
   'Placed',
   'Closed',
 ];
 
 export const ACTIVE_STAGES = ['Submitted', 'On Hold', 'Hiring Manager Interview', 'Round 2', 'Final Round', 'Offer'];
-export const TERMINAL_STAGES = ['Offer Declined', 'Placed', 'Closed'];
+export const TERMINAL_STAGES = ['Offer Declined', 'No Go [Eitan]', 'Hiring Manager Declined', 'Placed', 'Closed'];
 
 export const FOLLOW_UP_DAYS = {
   'Submitted': 3,
@@ -49,6 +51,8 @@ export const STAGE_COLORS = {
   'Final Round':               'bg-violet-100 text-violet-800',
   'Offer':                     'bg-green-100 text-green-800',
   'Offer Declined':            'bg-red-100 text-red-800',
+  'No Go [Eitan]':             'bg-orange-100 text-orange-800',
+  'Hiring Manager Declined':   'bg-rose-100 text-rose-800',
   'Placed':                    'bg-emerald-100 text-emerald-800',
   'Closed':                    'bg-gray-100 text-gray-700',
 };
